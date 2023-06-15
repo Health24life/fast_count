@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
   spec.files         = Dir["*.{md,txt}", "{lib,guides}/**/*"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activerecord", ">= 6.0"
+  spec.add_dependency "activerecord", ">= 5.2.7"
 end
